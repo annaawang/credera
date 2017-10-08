@@ -634,7 +634,7 @@ nav {
     font-size: 0.8rem; }
 
 .primary {
-  background-color: #EA8326; }
+  background-color: #f1612b; }
   .primary p {
     color: white;
     font-weight: 600;
@@ -653,7 +653,7 @@ body {
   text-transform: uppercase; }
 
 #search-bar {
-  background-color: #2296d1;
+  background-color: #2099d4;
   border-bottom: 4px solid #cecece;
   padding: 1%; }
 
@@ -692,19 +692,74 @@ body {
   padding: 2%;
   background-color: #f5f5f5; }
   .header h1 {
-    font-size: 1rem; }
+    font-size: 0.95rem; }
     .header h1 span {
       font-size: 0.8rem; }
 
 #chart-device {
-  height: 400px; }
+  height: 400px;
+  margin-bottom: 2%; }
+
+#chart-device-legend {
+  width: 100%;
+  padding-left: 120px; }
+
+#chart-scoring {
+  height: 400px;
+  margin-bottom: 2%; }
+
+#chart-scoring-legend {
+  width: 100%;
+  padding-left: 20px; }
+
+#dashboard-secondary {
+  padding-bottom: 5%; }
+
+.table {
+  padding-top: 2%; }
+
+table {
+  width: 100%; }
+
+th {
+  font-weight: 400;
+  padding: 2%;
+  text-align: left;
+  font-size: 0.7rem;
+  background-color: #ECF6FA; }
+  th .center {
+    align: center; }
+  th .right {
+    text-align: right; }
+
+td {
+  font-weight: 400;
+  padding: 2%;
+  text-align: left;
+  font-size: 0.7rem;
+  border-bottom: 0.5px solid #f5f5f5; }
+  td .center {
+    text-align: center; }
+  td .right {
+    text-align: right; }
 
 .c3 line, .c3 path {
   stroke: #e1e1e1;
-  width: 0.5px; }
+  stroke-width: 0.5px; }
 
 .c3 text {
   font-family: "Open Sans", sans-serif; }
 
 .c3-axis .tick line {
   display: none; }
+
+.legend span {
+  height: 20px;
+  width: 20px;
+  margin-right: 10%;
+  display: inline-block;
+  cursor: pointer;
+  color: #231F20;
+  font-size: 0.7rem;
+  padding-top: 3px;
+  padding-left: 20px; }

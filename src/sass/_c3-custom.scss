@@ -1,6 +1,6 @@
 .c3 line, .c3 path {
 	stroke: $gray-chart;
-	width: 0.5px;
+	stroke-width: 0.5px;
 }
 
 .c3 text {
@@ -10,3 +10,16 @@
 .c3-axis .tick line { 
 	display: none;
 }
+
+.legend span {
+    height: 20px;
+    width: 20px;
+    margin-right: 10%;
+    display: inline-block;
+    cursor: pointer;
+    color: $gray-dark;
+    font-size: 0.7rem;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+

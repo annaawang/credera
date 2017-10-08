@@ -49,7 +49,7 @@
 	background-color: $gray-lightest;
 
 	h1 {
-		font-size: 1rem;
+		font-size: 0.95rem;
 
 		span {
 			font-size: 0.8rem;
@@ -59,4 +59,72 @@
 
 #chart-device {
 	height: 400px;
+	margin-bottom: 2%;
 }
+
+#chart-device-legend {
+	width: 100%;
+	padding-left: 120px;
+}
+
+#chart-scoring {
+	height: 400px;
+	margin-bottom: 2%;
+}
+
+#chart-scoring-legend {
+	width: 100%;
+	padding-left: 20px;
+}
+
+
+#dashboard-secondary {
+	padding-bottom: 5%;
+}
+
+.table {
+	padding-top: 2%;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	font-weight: $font-regular;
+	padding: 2%;
+	text-align: left;
+	font-size: 0.7rem;
+	background-color: $blue-light;
+
+	.center {
+		align: center;
+	}
+
+	.right {
+		text-align: right;
+	}
+}
+
+td {
+	font-weight: $font-regular;
+	padding: 2%;
+	text-align: left;
+	font-size: 0.7rem;
+	border-bottom: 0.5px solid $gray-lightest;
+
+	.center {
+		text-align: center;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+}
+
+
+
+
+
+
