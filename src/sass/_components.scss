@@ -40,5 +40,23 @@
 }
 
 #dashboard-primary {
-	
+	padding: 2%;
+}
+
+.header {
+	width: 100%;
+	padding: 2%;
+	background-color: $gray-lightest;
+
+	h1 {
+		font-size: 1rem;
+
+		span {
+			font-size: 0.8rem;
+		}
+	}
+}
+
+#chart-device {
+	height: 400px;
 }

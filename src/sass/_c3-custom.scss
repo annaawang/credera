@@ -1,0 +1,12 @@
+.c3 line, .c3 path {
+	stroke: $gray-chart;
+	width: 0.5px;
+}
+
+.c3 text {
+	font-family: $font-sans;
+}
+
+.c3-axis .tick line { 
+	display: none;
+}

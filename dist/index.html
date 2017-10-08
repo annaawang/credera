@@ -15,9 +15,13 @@
   <meta name="description" content=  'Secure Co Analytics Dashboard' >
 
 
-  
-    <link type="text/css" rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" type="image/png" href="#"/>
+  <!-- STYLESHEETS -->
+  <link type="text/css" rel="stylesheet" href="css/c3.min.css">
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+
+  <!-- SCRIPTS -->
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="js/c3.min.js"></script>
 </head>
 
 
@@ -78,18 +82,31 @@
 
 <div id="dashboard-primary" class="grid">
   <div class="width-one-half">
-    <div class="chart">
-      <div class="header">
-        <!--<h1>Control Failures by Device<span>(Top 5)</span></h1>-->
-      </div>
+    <div class="header">
+      <h1>Control Failures by Device <span>( Top 5 )</span></h1>
+    </div>
+    
+    <div id="chart-device">
+      
 
     </div>
   </div>
 
   <div class="width-one-half">
+    <div class="header">
+      <h1>Configuration Assessment SCI Scoring <span>( 30 Day History )</span></h1>
+    </div>
+    
+    <div id="chart-scoring">
+      
+
+    </div>
   </div>
 </div>
 
 </body>
+
+<!-- SCRIPTS -->
+<script src="js/charts.js"></script>
 
 </html>
