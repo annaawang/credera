@@ -403,17 +403,21 @@ ________________________________
 
 -- Type
 
+-- Breakpoints
+
+-- Grid Counts
+
+-- Media Queries
+
 _________________________________*/
 /* FILE CONTENTS
 ________________________________
 
 -- Custom Neat Grid
 
--- Media Queries
-
 -- Grid Container
 
--- Grid Items
+-- Grid Columns
 
 _________________________________*/
 .grid {
@@ -590,6 +594,10 @@ ________________________________
 
 -- Navigation
 
+-- Mobile Nav
+
+-- Button Actions 
+
 _________________________________*/
 nav {
   padding: 0 20px;
@@ -685,6 +693,12 @@ nav {
 .right-align {
   float: right; }
 
+/* FILE CONTENTS
+________________________________
+
+-- Body
+
+_________________________________*/
 body {
   font-family: "Open Sans", sans-serif; }
   body h1, body h2, body h3, body h4, body h5, body h6, body p {
@@ -694,10 +708,20 @@ body {
 .uppercase {
   text-transform: uppercase; }
 
+/* FILE CONTENTS
+________________________________
+
+-- Search Bar
+
+-- Primary Dashboard
+
+-- Secondary Dashboard
+
+_________________________________*/
 #search-bar {
   background-color: #62B6E1;
   border-bottom: 4px solid #f5f5f5;
-  padding: 1%; }
+  padding: 0.5%; }
 
 .text {
   display: none; }
@@ -862,6 +886,12 @@ td {
 .circle-green {
   background-color: #B6D984; }
 
+/* FILE CONTENTS
+________________________________
+
+-- Customizes C3 library
+
+_________________________________*/
 .c3 line {
   stroke: #e1e1e1;
   stroke-width: 0.5px; }
