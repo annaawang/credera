@@ -3,6 +3,10 @@ ________________________________
 
 -- Navigation
 
+-- Mobile Nav
+
+-- Button Actions 
+
 _________________________________*/
 
 
@@ -45,7 +49,7 @@ nav {
 }
 
 
-//	BUTTON ACTIONS
+//	MOBILE NAV
 #menu {
 	color: white;
 	font-size: 25px;
@@ -72,6 +76,8 @@ nav {
 	}
 }
 
+
+//	BUTTON ACTIONS
 #button-container {
 	display: none;
 	@include media($small) {

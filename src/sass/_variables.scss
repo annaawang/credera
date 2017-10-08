@@ -5,6 +5,12 @@ ________________________________
 
 -- Type
 
+-- Breakpoints
+
+-- Grid Counts
+
+-- Media Queries
+
 _________________________________*/
 
 
@@ -28,6 +34,7 @@ $orange-light: #F5906A;
 $orange-dark: #F06F40;
 $gray-chart: #e1e1e1;
 
+
 //	TYPE
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 $font-sans:		'Open Sans', sans-serif;
@@ -39,13 +46,13 @@ $font-heavy: 	600;
 
 
 
-//	Mobile First Breakpoints
+//	BREAKPOINTS
 $small-screen:  	481px !default;
 $medium-screen: 	600px !default;
 $large-screen:  	1201px !default;
 
 
-//	Grid column counts by screen size
+//	GRID COUNTS
 $grid-columns-small: 	1 !default;
 $grid-columns-medium: 	6 !default;
 $grid-columns-large: 	12 !default;
