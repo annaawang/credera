@@ -90,7 +90,18 @@
       
 
     </div>
-    <!--<div id="chart-device-legend"></div>-->
+    <div id="chart-device-legend">
+      <ul>
+        <li><div class="key-green"><div></li>
+        <li><p>Low</p></li>
+        <li><div class="key-blue"><div></li>
+        <li><p>Medium</p></li>
+        <li><div class="key-yellow"><div></li>
+        <li><p>High</p></li>
+        <li><div class="key-orange"><div></li>
+        <li><p>Critical</p></li>
+      </ul>
+    </div>
   </div>
 
   <div class="width-one-half">
@@ -102,7 +113,16 @@
       
 
     </div>
-    <!--<div id="chart-scoring-legend"></div>-->
+    <div id="chart-scoring-legend">
+      <ul>
+        <li><div class="key-green"><div></li>
+        <li><p>DB Best Practices</p></li>
+        <li><div class="key-blue"><div></li>
+        <li><p>SecureCo Best Practices</p></li>
+        <li><div class="key-yellow"><div></li>
+        <li><p>Best Practices</p></li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -121,27 +141,51 @@
         </tr>
         <tr>
           <td>FW01CC01</td>
+          <td><div class="circle-orange"></div></td>
+          <td><div class="circle-orange"></div></td>
+          <td><div class="circle-yellow"></div></td>
         </tr>
         <tr>
           <td>ESD-CORE-6513-A</td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-orange"></div></td>
         </tr>
         <tr>
           <td>MSF-FDR-CMA</td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-yellow"></div></td>
         </tr>
         <tr>
           <td>pdcdevfw</td>
+          <td><div class="circle-green"></div></td>
+          <td><div class="circle-orange"></div></td>
+          <td><div class="circle-orange"></div></td>
         </tr>
         <tr>
           <td>vhdc-fw-01</td>
+          <td><div class="circle-green"></div></td>
+          <td><div class="circle-orange"></div></td>
+          <td><div class="circle-orange"></div></td>
         </tr>
         <tr>
           <td>PHSA-ENG</td>
+          <td><div class="circle-green"></div></td>
+          <td><div class="circle-orange"></div></td>
+          <td><div class="circle-orange"></div></td>
         </tr>
         <tr>
           <td>SYMMSS-FW-1027741</td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-orange"></div></td>
         </tr>
         <tr>
           <td>LEGACY-IT-FW</td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-yellow"></div></td>
+          <td><div class="circle-orange"></div></td>
         </tr>
       </table>
     </div>
@@ -155,48 +199,48 @@
       <table>
         <tr>
           <th>Device</th>
-          <th>Date of Change</th>
-          <th>Type of Change(s)</th>
+          <th class="center">Date of Change</th>
+          <th class="right">Type of Change(s)</th>
         </tr>
         <tr>
           <td>FW01CC01</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>ESD-CORE-6513-A</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>MSF-FDR-CMA</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>pdcdevfw</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>vhdc-fw-01</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>PHSA-ENG</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>SYMMSS-FW-1027741</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
         <tr>
           <td>LEGACY-IT-FW</td>
-          <td>08/28/2013</td>
-          <td>ADD, MODIFY</td>
+          <td class="center">08/28/2013</td>
+          <td class="right">ADD, MODIFY</td>
         </tr>
       </table>
     </div>
@@ -210,48 +254,48 @@
       <table>
         <tr>
           <th>Device</th>
-          <th>Rule Count</th>
-          <th>Removable Rule Count</th>
+          <th class="center">Rule Count</th>
+          <th class="right">Removable Rule Count</th>
         </tr>
         <tr>
           <td>FW01CC01</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>ESD-CORE-6513-A</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>MSF-FDR-CMA</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>pdcdevfw</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>vhdc-fw-01</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>PHSA-ENG</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>SYMMSS-FW-1027741</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
         <tr>
           <td>LEGACY-IT-FW</td>
-          <td>7000</td>
-          <td>20</td>
+          <td class="center">7000</td>
+          <td class="right">20</td>
         </tr>
       </table>
     </div>

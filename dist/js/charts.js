@@ -65,29 +65,6 @@ var chart = c3.generate({
     }
 });
 
-function toggle(id) {
-    chart.toggle(id);
-}
-
-d3.select('#chart-device-legend').insert('div', '.chart').attr('class', 'legend').selectAll('span')
-    .data(['Low', 'Medium', 'High', 'Critical'])
-  	.enter().append('span')
-    .attr('data-id', function (id) { return id; })
-    .html(function (id) { return id; })
-
-    .each(function (id) {
-        d3.select(this).style('background-color', chart.color(id));
-    })
-    .on('mouseover', function (id) {
-        chart.focus(id);
-    })
-    .on('mouseout', function (id) {
-        chart.revert();
-    })
-    .on('click', function (id) {
-        chart.toggle(id);
-    });
-
 
 var chart2 = c3.generate({
 	bindto: '#chart-scoring',
@@ -158,25 +135,6 @@ var chart2 = c3.generate({
     },
     
 });
-
-d3.select('#chart-scoring-legend').insert('div', '.chart').attr('class', 'legend').selectAll('span')
-    .data(['DB Best Practices', 'SecureCo Best Practices', 'Best Practices',])
-  	.enter().append('span')
-    .attr('data-id', function (id) { return id; })
-    .html(function (id) { return id; })
-
-    .each(function (id) {
-        d3.select(this).style('background-color', chart.color(id));
-    })
-    .on('mouseover', function (id) {
-        chart.focus(id);
-    })
-    .on('mouseout', function (id) {
-        chart.revert();
-    })
-    .on('click', function (id) {
-        chart.toggle(id);
-    });
 
 
 
