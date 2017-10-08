@@ -1,0 +1,129 @@
+/* FILE CONTENTS
+________________________________
+
+-- Custom Neat Grid
+
+-- Media Queries
+
+-- Grid Container
+
+-- Grid Items
+
+_________________________________*/
+
+
+
+
+//	OVERRIDE NEAT GRID
+
+
+$neat-grid: (
+  columns: 12,
+  gutter: 40px,
+  direction: ltr,
+);
+
+//	GRID CONTAINER
+
+
+.grid {
+	@include outer-container();
+	padding: 0 20px;
+	max-width: $site-max-width;
+}
+
+
+
+//	GRID ITEMS
+
+@include media($medium) {
+  .width-one-whole {
+    @include span-columns(6);
+  }
+
+  .width-one-half {
+    @include span-columns(3);
+  }
+
+  .width-one-third {
+    @include span-columns(2);
+  }
+
+  .width-two-thirds {
+    @include span-columns(4);
+  }
+
+  .width-one-fourth {
+    @include span-columns(3);
+  }
+
+  .width-three-fourths {
+    @include span-columns(6);
+  }
+
+  .width-one-sixth {
+    @include span-columns(2);
+  }
+
+  .width-five-sixths {
+    @include span-columns(4);
+  }
+
+  .width-one-twelfth {
+    @include span-columns(2);
+  }
+
+  .width-five-twelfths {
+    @include span-columns(2);
+  }
+
+  .width-seven-twelfths {
+    @include span-columns(4);
+  }
+}
+
+@include media($large) {
+  .width-one-whole {
+    @include span-columns(12);
+  }
+
+  .width-one-half {
+    @include span-columns(6);
+  }
+
+  .width-one-third {
+    @include span-columns(4);
+  }
+
+  .width-two-thirds {
+    @include span-columns(8);
+  }
+
+  .width-one-fourth {
+    @include span-columns(3);
+  }
+
+  .width-three-fourths {
+    @include span-columns(9);
+  }
+
+  .width-one-sixth {
+    @include span-columns(2);
+  }
+
+  .width-five-sixths {
+    @include span-columns(10);
+  }
+
+  .width-one-twelfth {
+    @include span-columns(1);
+  }
+
+  .width-five-twelfths {
+    @include span-columns(5);
+  }
+
+  .width-seven-twelfths {
+    @include span-columns(7);
+  }
+}

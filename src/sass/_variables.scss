@@ -1,0 +1,66 @@
+/* FILE CONTENTS
+________________________________
+
+-- Colors
+
+-- Type
+
+_________________________________*/
+
+
+//	COLORS
+$blue:		#2296d1; 
+$orange:	#EA8326;
+$green:		#B7DA84;
+$yellow:	#FFE2A4;
+$gray-dark:	#231F20;
+
+
+$blue-light: #ECF6FA;
+$blue-darker: #247fae;
+$blue-dark:	 #2484B5;
+$gray-light: #F5F5F5;
+$gray-med:	 #3F3E3E;
+$gray-input: #8b8b8b;
+$gray-lighter: #cecece;
+$orange-light: #F5906A;
+
+
+//	TYPE
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+$font-sans:		'Open Sans', sans-serif;
+
+$font-light: 	300;
+$font-regular:	400;
+$font-heavy: 	600;
+
+
+
+
+//	Mobile First Breakpoints
+$small-screen:  	481px !default;
+$medium-screen: 	600px !default;
+$large-screen:  	1201px !default;
+
+
+//	Grid column counts by screen size
+$grid-columns-small: 	1 !default;
+$grid-columns-medium: 	6 !default;
+$grid-columns-large: 	12 !default;
+
+
+//	MEDIA QUERIES
+$small: 	new-breakpoint(min-width $small-screen $grid-columns-small) !default;
+$medium: 	new-breakpoint(min-width $medium-screen $grid-columns-medium) !default;
+$large: 	new-breakpoint(min-width $large-screen $grid-columns-large) !default;
+
+
+
+$site-max-width:		1960px;
+
+
+
+
+
+
+

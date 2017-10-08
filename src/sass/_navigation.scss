@@ -1,0 +1,78 @@
+/* FILE CONTENTS
+________________________________
+
+-- Navigation
+
+_________________________________*/
+
+
+//	NAV PROPERTIES
+nav {
+	padding: 0 20px;
+	width: 100%;
+	background-color: $gray-dark;
+}
+
+.logo {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	padding-bottom: 2%;
+	img {
+		height: 80%;
+		display: block;
+		vertical-align: middle;
+
+	}
+
+	
+}
+
+.logo-text {
+	display: inline-block;
+	margin-left: 2%;
+	h1 {
+		font-family: $font-sans;
+		font-weight: $font-light;
+		color: white;
+		font-size: 1.3rem;
+		margin: 0;
+		line-height: 70px;
+	}
+}
+
+
+//	BUTTON ACTIONS
+.button-container {
+	padding-top: 3px;
+}
+
+.button {
+	display: inline-block;
+	float: right;
+	margin: 1%;
+	padding: 1% 3%;
+	background-color: $gray-med;
+	border-radius: 5px;
+
+	p {
+		font-weight: $font-light;
+		color: $gray-lighter;
+		letter-spacing: 2px;
+		font-size: 0.8rem;
+	}
+}
+
+.primary {
+	background-color: $orange;
+	// TODO: box shadow 
+	p {
+		color: white;
+		font-weight: $font-heavy;
+		text-shadow: 1px 1px 1px #000000;
+	}
+}
+
+.right-align {
+	float: right;
+}
