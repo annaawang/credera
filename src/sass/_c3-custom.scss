@@ -1,6 +1,10 @@
-.c3 line, .c3 path {
+.c3 line  {
 	stroke: $gray-chart;
 	stroke-width: 0.5px;
+}
+
+.c3 path {
+	stroke: $gray-chart;
 }
 
 .c3 text {
@@ -11,22 +15,11 @@
 	display: none;
 }
 
-.legend span {
-    height: 20px;
-    width: 20px;
-    margin-right: 10%;
-    display: inline-block;
-    cursor: pointer;
-    color: $gray-dark;
-    font-size: 0.7rem;
-    padding-top: 3px;
-    padding-left: 20px;
-}
-
-.c3-chart-line {
-	width: 5px;
-}
-
 .c3-circle {
-    stroke-width: 10px;
+	fill: white;
+	stroke-width: 2px;
+}
+
+.c3-line {
+	stroke-width: 4px;
 }

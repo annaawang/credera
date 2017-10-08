@@ -21,7 +21,9 @@
 
   <!-- SCRIPTS -->
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/c3.min.js"></script>
+  <script src="https://use.fontawesome.com/14c7631c7b.js"></script>
 </head>
 
 
@@ -38,41 +40,64 @@
   </div>
 
   <div class="width-three-fourths">
-    <div class="button-container">
-      <div class="button primary">
+    <div id="menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div id="button-container">
+      <a href="#"><div class="button primary">
         <p class="uppercase">▾  Toolbox</p>
-      </div>
+      </div></a>
 
-      <div class="button">
+      <a href="#"><div class="button">
         <p class="uppercase">Administration  ▾</p>
-      </div>
+      </div></a>
 
-      <div class="button">
+      <a href="#"><div class="button">
         <p class="uppercase">Assessments  ▾</p>
-      </div>
+      </div></a>
 
-      <div class="button">
+      <a href="#"><div class="button">
         <p class="uppercase">Devices  ▾</p>
-      </div>
+      </div></a>
 
     </div>
     
   </div>
 </nav>
 
+<div id="mobile-nav">
+    <a href="#"><div class="button primary">
+        <p class="uppercase">▾  Toolbox</p>
+      </div></a>
+
+      <a href="#"><div class="button">
+        <p class="uppercase">Administration  ▾</p>
+      </div></a>
+
+      <a href="#"><div class="button">
+        <p class="uppercase">Assessments  ▾</p>
+      </div></a>
+
+      <a href="#"><div class="button">
+        <p class="uppercase">Devices  ▾</p>
+      </div></a>
+
+
+</div>
+
 <div id="search-bar" class="grid">
   <div class="width-one-half">
     <div class="text">
       <h1>Enterprise Domain Name</h1>
     </div>
+    <input class="search" placeholder="Search in Domain">
+    </input>
+    
 
-    <div class="search">
-      <h1>Search in Domain</h1>
+    <a href="#"><div class="search-button">
+      <i class="fa fa-search" aria-hidden="true"></i>
     </div>
-
-    <div class="search-button">
-    </div>
-  </div>
+  </div></a>
 
   <div class="width-one-half"> 
     <div class="module">
@@ -307,5 +332,6 @@
 
 <!-- SCRIPTS -->
 <script src="js/charts.js"></script>
+<script src="js/nav.js"></script>
 
 </html>

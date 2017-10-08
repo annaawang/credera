@@ -18,11 +18,14 @@ nav {
 	height: 100%;
 	vertical-align: middle;
 	padding-bottom: 2%;
+
 	img {
-		height: 80%;
+		height: 35px;
 		display: block;
 		vertical-align: middle;
-
+		@include media($small) {
+			height: 40px;
+		}
 	}
 
 	
@@ -43,28 +46,78 @@ nav {
 
 
 //	BUTTON ACTIONS
-.button-container {
-	padding-top: 3px;
+#menu {
+	color: white;
+	font-size: 25px;
+
+	position: absolute;
+	top: 2%;
+	right: 5%;
+
+	@include media($small) {
+		display: none;
+	}
+}
+
+#mobile-nav {
+	z-index: 1;
+	height: 100vh;
+	width: 80%;
+	right: 0;
+	position: absolute;
+	background-color: $gray-dark;
+	display: none;
+	a {
+		text-decoration: none;
+	}
+}
+
+#button-container {
+	display: none;
+	@include media($small) {
+		display: block;
+		padding-top: 3px;
+	}
 }
 
 .button {
-	display: inline-block;
-	float: right;
-	margin: 1%;
-	padding: 1% 3%;
-	background-color: $gray-med;
+	display: block;
+	height: 50px;
+	width: 70%;
+	text-align: center;
 	border-radius: 5px;
+	padding: 5%;
+	background-color: $gray-med;
+	margin: 5% auto;
+	
 
 	p {
 		font-weight: $font-light;
 		color: $gray-lighter;
-		letter-spacing: 2px;
 		font-size: 0.8rem;
+		letter-spacing: 2px;
 	}
+
+	@include media($small) {
+		display: inline-block;
+		float: right;
+		margin: 1%;
+		padding: 1% 3%;
+		height: auto;
+		width: auto;
+
+		&:hover {
+			background-color: $blue-darker;
+		}
+	}
+	
 }
 
 .primary {
 	background-color: $orange;
+	&:hover {
+		background-color: $orange-dark;
+	}
 	// TODO: box shadow 
 	p {
 		color: white;
