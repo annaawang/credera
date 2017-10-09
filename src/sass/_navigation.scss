@@ -58,7 +58,7 @@ nav {
 	top: 2%;
 	right: 5%;
 
-	@include media($small) {
+	@include media($large) {
 		display: none;
 	}
 }
@@ -80,7 +80,7 @@ nav {
 //	BUTTON ACTIONS
 #button-container {
 	display: none;
-	@include media($small) {
+	@include media($large) {
 		display: block;
 		padding-top: 3px;
 	}
@@ -104,7 +104,7 @@ nav {
 		letter-spacing: 2px;
 	}
 
-	@include media($small) {
+	@include media($large) {
 		display: inline-block;
 		float: right;
 		margin: 1%;

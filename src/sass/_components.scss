@@ -18,7 +18,7 @@ _________________________________*/
 
 .text {
 	display: none;
-	@include media($small) {
+	@include media($large) {
 		display: inline-block;
 
 		h1 {
@@ -45,7 +45,7 @@ _________________________________*/
 			color: $gray-input;
 		}
 
-	@include media($small) {
+	@include media($large) {
 		display: inline-block;
 		background-color: $gray-lighter;
 		width: 40%;
@@ -68,7 +68,7 @@ _________________________________*/
 	border-radius: 5px;
 	text-align: center;
 
-	@include media($medium) {
+	@include media($large) {
 		padding: 1% 1.5%;
 		height: 100%;
 		width: auto;

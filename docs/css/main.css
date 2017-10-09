@@ -634,7 +634,7 @@ nav {
   position: absolute;
   top: 2%;
   right: 5%; }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 1201px) {
     #menu {
       display: none; } }
 
@@ -651,7 +651,7 @@ nav {
 
 #button-container {
   display: none; }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 1201px) {
     #button-container {
       display: block;
       padding-top: 3px; } }
@@ -670,7 +670,7 @@ nav {
     color: #E0E0E0;
     font-size: 0.8rem;
     letter-spacing: 2px; }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 1201px) {
     .button {
       display: inline-block;
       float: right;
@@ -725,7 +725,7 @@ _________________________________*/
 
 .text {
   display: none; }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 1201px) {
     .text {
       display: inline-block; }
       .text h1 {
@@ -747,7 +747,7 @@ _________________________________*/
     font-weight: 300;
     font-size: 12px;
     color: #8b8b8b; }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 1201px) {
     .search {
       display: inline-block;
       background-color: #E0E0E0;
@@ -765,7 +765,7 @@ _________________________________*/
   padding: 1%;
   border-radius: 5px;
   text-align: center; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 1201px) {
     .search-button {
       padding: 1% 1.5%;
       height: 100%;
